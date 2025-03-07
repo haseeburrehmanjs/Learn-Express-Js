@@ -1,0 +1,23 @@
+{
+  "name": "learn-express-js",
+  "version": "1.0.0",
+  "description": "learn Express Js",
+  "homepage": "https://github.com/haseeburrehmanjs/Learn-Express-Js#readme",
+  "bugs": {
+    "url": "https://github.com/haseeburrehmanjs/Learn-Express-Js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haseeburrehmanjs/Learn-Express-Js.git"
+  },
+  "license": "ISC",
+  "author": "Haseeb Ur Rehman",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
