@@ -4,9 +4,11 @@ const port = 3000
 
 const blog = require('./routes/blog')
 const careers = require('./routes/careers')
+const contact_us = require('./routes/contact-us')
 
 app.use('/birds', blog)
 app.use('/careers', careers)
+app.use('/hello', contact_us)
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
