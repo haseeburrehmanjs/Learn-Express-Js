@@ -21,7 +21,6 @@ const checkToken = (req, res, next) => {
 }
 
 const myPassword = '12345'
-
 const checkPassword = (req, res, next) => {
     if(req.query.pass == "" || req.query.pass == undefined){
         return res.send({
